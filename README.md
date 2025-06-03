@@ -2,11 +2,11 @@
 
 **Installtion Steps**
 
-conda create -n md-gmx python=3.9 -y   #Create a conda environment
+conda create -n md-gmx python=3.9 -y                          #Create a conda environment
 
 activate md-gmx
 
-conda install conda-forge::acpype -y   #Install ACPYPE for ligand topology generation
+conda install conda-forge::acpype -y                          #Install ACPYPE for ligand topology generation
 
 #############################################################################################
 
