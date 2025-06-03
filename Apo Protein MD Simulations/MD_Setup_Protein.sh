@@ -1,7 +1,7 @@
 #!/bin/bash
 GMX=gmx #Specify the gromacs path
 
-FILE="Alpha_Protein_A.pdb"
+FILE="Alpha_Protein_A.pdb" #Apo Protein file without any HET atoms
 
 #---------  SIMU SETUP  -----------
 FF=amber99sb-ildn	#AMBER99sb-ILDN force field used
