@@ -1,8 +1,8 @@
 # Molecular-Dynamics-Simulations-Using-AMBER-ForceField
 
-Installtion Steps:
+**Installtion Steps**
 
-**Create a conda environment**
+#Create a conda environment
 
 conda create -n md-gmx python=3.9 -y
 
