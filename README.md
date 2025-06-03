@@ -2,13 +2,11 @@
 
 **Installtion Steps**
 
-#Create a conda environment
-
-conda create -n md-gmx python=3.9 -y
+conda create -n md-gmx python=3.9 -y   #Create a conda environment
 
 activate md-gmx
 
-conda install conda-forge::acpype -y   #install ACPYPE for ligand topology generation.
+conda install conda-forge::acpype -y   #Install ACPYPE for ligand topology generation
 
 #############################################################################################
 #The user must either directly specify the GROMACS path in the MD_Setup_Protein.sh file or source it in the .bashrc file.
