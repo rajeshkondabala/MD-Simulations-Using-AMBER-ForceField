@@ -1,6 +1,16 @@
 # Molecular-Dynamics-Simulations-Using-AMBER-ForceField
-#The user must either directly specify the GROMACS path in the MD_Setup_Protein.sh file or source it in the .bashrc file.
 
+Installtion Steps:
+
+**Create a conda environment**
+conda create -n md-gmx python=3.9 -y
+
+activate md-gmx
+
+conda install conda-forge::acpype -y   #install ACPYPE for ligand topology generation.
+
+#############################################################################################
+#The user must either directly specify the GROMACS path in the MD_Setup_Protein.sh file or source it in the .bashrc file.
 #############################################################################################
 *Apo-Protein Molecular Dynamics Simulations*
 
@@ -21,3 +31,5 @@ bash MD_Setup_Protein-Ligand.sh
 Run MD_Setup_Metalloprotein-Ligand using the following command
 
 bash MD_Setup_Metalloprotein-Ligand.sh
+
+###########################################################################################
