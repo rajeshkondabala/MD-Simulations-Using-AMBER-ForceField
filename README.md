@@ -1,5 +1,5 @@
 # Molecular-Dynamics-Simulations-Using-AMBER-ForceField
-Apo-Protein, Protein-Ligand and Metalloprotein-Ligand Molecular Dynamics Simulations
+Apo-Protein Molecular Dynamics Simulations
 
 Run MD_Setup_Protein using the following command
 
